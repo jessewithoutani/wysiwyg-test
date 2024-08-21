@@ -1,0 +1,40 @@
+html {
+    font-size: 12px;
+}
+
+body {
+    background: #eee !important;
+}
+button {
+    background: #eee;
+    border: 2px outset #aaa;
+    padding: 1px 15px;
+    font-family: inherit;
+    outline: 0 !important;
+}
+button:hover {
+    cursor: pointer;
+    backdrop-filter: brightness(110%);
+    filter: brightness(110%);
+}
+button:active {
+    border-style: inset !important;
+}
+
+input[type=text], input[type=number], input[type=email], input[type=password] {
+    background: #fff;
+    border: 2px inset #aaa;
+    padding: 1px 5px;
+    font-family: inherit;
+    outline: 0 !important;
+}
+input[type=number] {
+    width: 50px;
+}
+
+
+#editor {
+    background: #fff;
+    border: 1px solid #333;
+    outline: none !important;
+}

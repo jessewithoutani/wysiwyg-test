@@ -14,10 +14,22 @@
 <body>
     <div class="container-fluid h-100">
         <div class="vh-100 d-flex flex-column">
-            <div class="row bd-highlight p-2">File info :D</div>
-            <div class="row bd-highlight p-2">Menu items :)</div>
-            <div class="row bd-highlight p-2">Tools</div>
-            <div class="row bd-highlight p-3 flex-fill" contenteditable></div>
+            <div class="row p-2">File info :D</div>
+            <div class="row p-2">Menu items :)</div>
+            <div class="row p-2">
+                <div class="col">
+                    Tools:&nbsp;
+                    <button>Save</button>&nbsp;
+                    <input type="text">
+                    <input type="number" value="12">&nbsp;
+                    <button onclick="bold()"><b>B</b></button>
+                    <button onclick="italic()"><i>i</i></button>
+                    <button onclick="underline()"><u>U</u></button>
+                </div>
+            </div>
+            <div class="row flex-grow-1">
+                <div class="w-100 h-100 p-5" id="editor"contenteditable></div>
+            </div>
         </div>
     </div>
 </body>
